@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 200px 0 50px;
+    background: #EEAECA;
+background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    
+    >h1{
+        margin-bottom: 30px;
+        font-style: italic;
+       
+      
+        
+    }
+
+    form{
+        width: 360px;
+        display: flex;
+        height: 45px;
+        border-radius: 7px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        >input{
+            width: 85%;
+            height: 100%;
+            border: none;
+            outline: none;
+            padding: 0 10px;
+            font-size: 18px;
+            background: #EEAECA;
+            background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(198, 180, 216, 1) 0%, rgba(178, 183, 223, 1) 10%, rgba(116, 157, 204, 1) 72%);
+            color: black !important;
+        }
+
+        >button{
+            width: 15%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border: none;
+             background: #f2bfd2;
+background: radial-gradient(circle, rgba(242, 191, 210, 1) 0%, rgba(196, 180, 211, 1) 30%, rgba(192, 179, 211, 1) 33%, rgba(185, 178, 212, 1) 39%, rgba(179, 177, 212, 1) 43%, rgba(171, 175, 212, 1) 50%, rgba(159, 172, 213, 1) 59%, rgba(152, 170, 213, 1) 65%, rgba(139, 167, 214, 1) 75%, rgba(134, 166, 214, 1) 79%, rgba(125, 164, 214, 1) 86%, rgba(116, 162, 214, 1) 100%);
+
+        }
+    }
+    >ul{
+        width: 360px;
+        height: 45px;
+        list-style: none;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        >li{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #d4dcff;
+           background: radial-gradient(circle, rgba(212, 220, 255, 1) 30%, rgba(244, 216, 228, 1) 95%, rgba(250, 215, 223, 1) 100%, rgba(242, 174, 196, 1) 100%);
+            color: black;
+            border-radius: 7px;
+            margin-bottom: 20px;
+            padding: 0 10px;
+            font-size: 18px;
+            >div{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+              
+                >button{
+                    width: 25px;
+                    height: 25px;
+                    background-color: rgb(255, 215, 242);
+                    border: none;
+                    color: rgb(219, 130, 210);
+                    display: flex;
+                    justify-content: center;
+                    cursor: pointer;
+                  
+                }
+            }
+        }
+    }
+    >select{
+        position: fixed;
+        top: 20px;
+        padding: 10px;
+        width: 350px;
+        text-align: center;
+        background: #ba829b;
+       background: radial-gradient(circle, rgba(186, 130, 155, 1) 0%, rgba(140, 161, 186, 1) 100%);
+       box-shadow: 10px 10px 10px #8CA1BA;
+       border: none;
+       border-radius: 2px; 
+       cursor: pointer; 
+       >option{
+        text-align: center;
+        background: #ba829b;
+        background: radial-gradient(circle, rgba(186, 130, 155, 1) 0%, rgba(140, 161, 186, 1) 100%);
+        box-shadow: 10px 10px 10px #8CA1BA;
+        border: none;
+        cursor: pointer;
+       }
+    }
+    .deletebut{       
+        margin: top -100px !important; 
+       margin-bottom: 50px;
+        padding: 12px;
+        width: 220px;
+        text-align: center;
+       background: radial-gradient(circle, rgb(190, 151, 169) 0%, rgb(126, 143, 162) 100%);
+         box-shadow: 10px 10px 10px #889cb5;
+         font-style: italic ;
+       border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}
+.did{
+     color: rgb(27, 108, 151);
+    &:hover{
+       color: rgb(79, 217, 227);
+    }
+}
+.didnt{
+     color: rgb(163, 61, 61);
+    &:hover{
+       color: rgb(237, 100, 235);
+    }
+}
